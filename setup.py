@@ -17,4 +17,7 @@ setup(
     url='https://github.com/DxChainNetwork/dxchainpy',
     license='MIT',
     packages=['dxchainpy'],
+    install_requires=[
+        'requests'
+    ]
 )
