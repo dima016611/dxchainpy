@@ -16,7 +16,7 @@ import json
 import requests
 from dxchainpy import dxexception
 
-HOST_API = 'https://explore.dxchain.com/ip_address_code/'
+HOST_API = 'https://explorer.dxchain.com/ip_address_code/'
 
 
 def get_url(api, user, password, header) -> dict:

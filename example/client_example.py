@@ -19,6 +19,17 @@ providers = dxchain.client.active_providers()
 print(providers)
 print('---- \n')
 
+# Currently, only sample uploading files on remote servers are supported, which include:
+# /home/ubuntu/data/DxChain-2018-Plan.doc
+# /home/ubuntu/data/DxChain_API_Doc.md
+# /home/ubuntu/data/DxChain-Flyer.png
+# /home/ubuntu/data/DxChain-Post.pdf
+# /home/ubuntu/data/DxChain_SDK.zip
+# /home/ubuntu/data/DxChain-Staff.csv
+# /home/ubuntu/data/DxChain-Video-Closing.mp4
+# /home/ubuntu/data/DxChain-Video-Opening.avi
+# /home/ubuntu/data/DxChain-Whitepaper.pdf
+
 # Upload a file from /home/ubuntu/test1.txt as mzhang to node
 dxchain.client.file_upload('/home/ubuntu/data/DxChain-Staff.csv', 'mzhang_testing')
 print("WAITING FOR UPLOADING ...")
